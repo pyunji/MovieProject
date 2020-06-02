@@ -1,3 +1,6 @@
+### :mag_right:git 사용법
+
+```
 git clone <url>
     : git repo를 현재 폴더에 클론함
 git remote add <name: ex.origin> <url>
@@ -14,3 +17,4 @@ git commit -m "<message>"
     : message와 함께 변경 사항 커밋
 git push origin master
     : git 저장소에 push
+```
