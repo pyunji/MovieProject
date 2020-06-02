@@ -15,14 +15,19 @@ from konlpy.tag import Mecab
 2. 테스트 결과 어미('^E')도 모두 붙여써야함
 3. 의존명사('NNB', 'NNBC')는 띄어써야함
 4. 긍정지정사('VCP'), 부정지정사('VNP')는 붙여써야함
-5. 접미사는 붙여쓴다
+5. 접미사는('^XS) 붙여쓴다
 6. 접두사는 앞에 붙여쓴다.
 7. 숫자와 단위는 띄어쓴다.
 8. 부호('^S')는 붙여쓴다.
 
 """
 
-def sentence_spacing(pre_sentence):
+def sentence_spacing(pre_sentence : str)->str:
+    """
+
+    :param pre_sentence: 띄어쓰기 없이 이어붙인 문장
+    :return: 띄어쓰기가 된 문장
+    """
     m = Mecab()
     pattern = re.compile('^J|E|SE|SF|SSO|SSC|SC|SY|VC|VN|XS')
     word_morph = m.pos(pre_sentence)
