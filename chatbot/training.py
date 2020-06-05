@@ -12,11 +12,6 @@ import data
 
 class Training_seq2seq():
     def __init__(self):
-        self.PAD_INDEX = 0
-        self.STA_INDEX = 1
-        self.END_INDEX = 2
-        self.OOV_INDEX = 3
-
         self.ENCODER_INPUT = 0
         self.DECODER_INPUT = 1
         self.DECODER_TARGET = 2
