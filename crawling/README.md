@@ -8,7 +8,7 @@ So instead of making repetitive functions or classes a module, we've made it eas
 This is why crawlers were not developed in modules.
 
 ## 💻In what order was it developed?
-### 1. watcha_title_to_search.py
+### 1. watcha_title_to_search.ipynb
     - Used files:
 		- kobis_movie_filtered.csv
 		- tmdb_movie_filtered.csv
