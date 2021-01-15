@@ -1,9 +1,9 @@
-# 🎬 Movie recommendation system and chatbot team project
+# 🎬 Movie recommendation system & Chatbot team project
 ### 📆 March 16, 2020 - June 6, 2020
 ## 👨‍👩‍👧‍👧 What we did
 - Crawling movie data
 
-    <img src="https://img.shields.io/badge/IMDb-E6B91E?style=flat-square&logo=IMDb&logoColor=black"/>
+    <!-- <img src="https://img.shields.io/badge/IMDb-E6B91E?style=flat-square&logo=IMDb&logoColor=black"/>
     <img src="https://img.shields.io/badge/TMDB-01D277?style=flat-square&logo=TheMovieDatabase&logoColor=white"/>
     <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/>
 
@@ -11,34 +11,37 @@
     <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
     <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=NumPy&logoColor=white"/>
     <img src="https://img.shields.io/badge/Anaconda-44A833?style=flat-square&logo=Anaconda&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=Jupyter&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=Jupyter&logoColor=white"/> -->
 - Recommendation system
     
-    <img src="https://img.shields.io/badge/Tensorflow-FF6F00?style=flat-square&logo=TensorFlow&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Scikit learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=black"/>
+    <!-- <img src="https://img.shields.io/badge/Tensorflow-FF6F00?style=flat-square&logo=TensorFlow&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Scikit learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=black"/> -->
     
 - Build Chatbot
 
-    <img src="https://img.shields.io/badge/Tensorflow-FF6F00?style=flat-square&logo=TensorFlow&logoColor=white"/>
+    <!-- <img src="https://img.shields.io/badge/Tensorflow-FF6F00?style=flat-square&logo=TensorFlow&logoColor=white"/>
     <img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=Keras&logoColor=white"/>
     <img src="https://img.shields.io/badge/CentOS-262577?style=flat-square&logo=CentOS&logoColor=white"/>
     <img src="https://img.shields.io/badge/Google Cloud-4285F4?style=flat-square&logo=Google-Cloud&logoColor=white"/>
     <img src="https://img.shields.io/badge/Google Colab-F9AB00?style=flat-square&logo=Google-Colab&logoColor=white"/>
-    <img src="https://img.shields.io/badge/FileZilla-BF0000?style=flat-square&logo=FileZilla&logoColor=white"/>
+    <img src="https://img.shields.io/badge/FileZilla-BF0000?style=flat-square&logo=FileZilla&logoColor=white"/> -->
     
 - Server & Application
 
-    <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>
+    <!-- <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>
     <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>
     <img src="https://img.shields.io/badge/JS-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black"/>
     <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=Ubuntu&logoColor=white"/>
     <img src="https://img.shields.io/badge/Jinja-B41717?style=flat-square&logo=Jinja&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=Flask&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=Flask&logoColor=white"/> -->
 
 
 ## 😎 What I did
 - **Crawling movie data (WATCHA)**
 
+	<img src="https://img.shields.io/badge/IMDb-E6B91E?style=flat-square&logo=IMDb&logoColor=black"/>
+    <img src="https://img.shields.io/badge/TMDB-01D277?style=flat-square&logo=TheMovieDatabase&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/>
     <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
     <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=NumPy&logoColor=white"/>
     <img src="https://img.shields.io/badge/Anaconda-44A833?style=flat-square&logo=Anaconda&logoColor=white"/>
