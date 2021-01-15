@@ -26,23 +26,6 @@ def create_rating_count_col(file_path):
 
 
 ```python
-# # user_id = 'yKZx3nLEWD54d'
-# user_id = 'YMKqmjXMkvloD'
-# url = f'https://watcha.com/ko-KR/users/{user_id}/contents/movies'
-# res = requests.get(url)
-# html = res.text
-# soup = BeautifulSoup(html, 'html.parser')
-
-# int(soup.find(attrs = 'eupnho10').text)
-```
-
-
-```python
-# np.isnan(user_id_df.loc[0, 'rating_count'])
-```
-
-
-```python
 # 이런 식으로는 대입 불가능
 # user_id_df[user_id_df['id']=='nkPvrb8wrvgar']['rating_count'] = 100
 
@@ -105,19 +88,6 @@ user_id_ratings_df
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -190,9 +160,6 @@ user_id_ratings_df
 
 
 
-```python
-# np.isnan(user_id_ratings_df.loc[215255, 'rating_count'] )
-```
 
 
 ```python
@@ -221,19 +188,6 @@ user_id_ratings_df
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -308,19 +262,6 @@ user_id_ratings_df.loc[user_id_ratings_df['rating_count']==0]
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -401,19 +342,6 @@ user_id_ratings_df.loc[user_id_ratings_df.rating_count.isnull()==True]
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -440,19 +368,6 @@ sorted_df
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
