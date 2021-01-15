@@ -22,8 +22,8 @@
     <img src="https://img.shields.io/badge/Tensorflow-FF6F00?style=flat-square&logo=TensorFlow&logoColor=white"/>
     <img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=Keras&logoColor=white"/>
     <img src="https://img.shields.io/badge/CentOS-262577?style=flat-square&logo=CentOS&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Google Cloud-4285F4?style=flat-square&logo=GoogleCloud&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Google Colab-F9AB00?style=flat-square&logo=GoogleColab&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Google Cloud-4285F4?style=flat-square&logo=Google-Cloud&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Google Colab-F9AB00?style=flat-square&logo=Google-Colab&logoColor=white"/>
     <img src="https://img.shields.io/badge/FileZilla-BF0000?style=flat-square&logo=FileZilla&logoColor=white"/>
     
 - Server & Application
@@ -50,8 +50,8 @@
     <img src="https://img.shields.io/badge/Tensorflow-FF6F00?style=flat-square&logo=TensorFlow&logoColor=white"/>
     <img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=Keras&logoColor=white"/>
     <img src="https://img.shields.io/badge/CentOS-262577?style=flat-square&logo=CentOS&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Google Cloud-4285F4?style=flat-square&logo=google cloud&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Google Colab-F9AB00?style=flat-square&logo=google colab&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Google Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Google Colab-F9AB00?style=flat-square&logo=google-colab&logoColor=white"/>
     <img src="https://img.shields.io/badge/FileZilla-BF0000?style=flat-square&logo=FileZilla&logoColor=white"/>
 
 
