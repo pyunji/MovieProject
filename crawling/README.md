@@ -7,8 +7,16 @@ So instead of making repetitive functions or classes a module, we've made it eas
 
 This is why crawlers were not developed in modules.
 
-## 💻In what order was it developed?
-### 1. watcha_title_to_search.ipynb
+---
+
+## 🎯 I specially developed these more focused !!
+### 👉 [**12. watcha_get_user_info.ipynb**](https://github.com/pyunji/MovieProject/blob/master/crawling/watcha_get_user_info.md)
+### 👉 [**11. watcha_user_rating_count.ipynb**](https://github.com/pyunji/MovieProject/blob/master/crawling/watcha_user_rating_count.md) 
+
+---
+
+## 💻 In what order was it developed?
+### [1. watcha_title_to_search.ipynb](https://github.com/pyunji/MovieProject/blob/master/crawling/watcha_title_to_search.md)
     - Used files:
 		- kobis_movie_filtered.csv
 		- tmdb_movie_filtered.csv
@@ -19,7 +27,7 @@ Converted the *movie_Nm* column of *kobis* and the *title* column of *tmdb* to t
 
 Data Frame converted from *kobis'* *Movie_NmEn* column and *tmdb's* *original_title* column to *title_en* column was saved as *test1.csv*
 
-### 2. watcha_get_mv_code.ipynb
+### [2. watcha_get_mv_code.ipynb](https://github.com/pyunji/MovieProject/blob/master/crawling/watcha_get_mv_code.md)
 	- Used files: 
 		- mv_titles\file00~89.csv
 	- Generated files: 
@@ -28,7 +36,7 @@ Data Frame converted from *kobis'* *Movie_NmEn* column and *tmdb's* *original_ti
 
 Searched the column of movie title in WATCHA and got WATCHA's own movie code and saved it.
 
-### 3. watcha_all_mv_code.ipynb
+### [3. watcha_all_mv_code.ipynb](https://github.com/pyunji/MovieProject/blob/master/crawling/watcha_all_mv_code.md)
     - Used files: 
         - movie_series_en\movie_series00~89.csv
         - movie_series_kor\movie_series00~89.csv
@@ -41,7 +49,7 @@ After concatting with series containing only movie codes, it was saved to *watch
 
 It has a total of **129653** movie codes.
 
-### 4. watcha_get_diff_code.ipynb
+### [4. watcha_get_diff_code.ipynb](https://github.com/pyunji/MovieProject/blob/master/crawling/watcha_get_diff_code.md)
 	- Used files: 
 		- mv_detail\mv_detail00~62.csv 
             - files with losses.
@@ -54,7 +62,7 @@ It has a total of **129653** movie codes.
 
 It has restored *4,012* movie codes that were not included due to mistakes in distributing film codes.
 
-### 5. watcha_get_mv_detail.ipynb
+### [5. watcha_get_mv_detail.ipynb](https://github.com/pyunji/MovieProject/blob/master/crawling/watcha_get_mv_detail.md)
 	- Used files:
 		- watcha_all_mv_code.csv
 		- diff.csv
@@ -70,7 +78,7 @@ Detailed information is as follows.
 
 `'casual_title', 'original_title', 'country', 'production_year', 'genre', 'running_time', 'director', 'main_actor', 'supporting_actor', 'extra', 'cast', 'cameo_special', 'cameo_friendship', 'voice_actor', 'narration', 'mean_ratings', 'voter', 'ratings_0.5', 'ratings_1.0', 'ratings_1.5', 'ratings_2.0', 'ratings_2.5', 'ratings_3.0', 'ratings_3.5', 'ratings_4.0', 'ratings_4.5', 'ratings_5.0','story'`
 
-### 6. watcha_concat_mv_detail.ipynb
+### [6. watcha_concat_mv_detail.ipynb](https://github.com/pyunji/MovieProject/blob/master/crawling/watcha_concat_mv_detail.md)
 	- Used files: 
 		- mv_detail\*
 	- Generated files: 
@@ -78,7 +86,7 @@ Detailed information is as follows.
 
 After concatting all files used, the column names that were not needed were removed or changed to column names that were easy-to-read column names.
 
-### 7. watcha_mv_detail_voter_tonumeric.ipynb
+### [7. watcha_mv_detail_voter_tonumeric.ipynb](https://github.com/pyunji/MovieProject/blob/master/crawling/watcha_mv_detail_voter_tonumeric.md)
 	- Used files: 
 		- watcha_mv_detail_final.csv
 	- Generated files: 
@@ -89,7 +97,7 @@ Movie with no one to rate a movie was saved separately in *watcha_mv_code_filter
 
 A string representing a number, such as '~만, ~천' in the column, was converted to a number and saved as *watcha_mv_detail_voter_tonumeric.csv*
 
-### 8. watcha_mv_code_sort_by_voter_final.ipynb
+### [8. watcha_mv_code_sort_by_voter_final.ipynb](https://github.com/pyunji/MovieProject/blob/master/crawling/watcha_mv_code_sort_by_voter_final.md)
 	- Used files: 
 		- watcha_mv_detail_tonumeric.csv
 	- Generated files: 
@@ -98,7 +106,7 @@ A string representing a number, such as '~만, ~천' in the column, was converte
 After sorting the number of voters in descending order, only the movie code was extracted and saved as *watcha_mv_code_sort_by_voter_final.csv*
 It had 74,277 movie codes.
 
-### 9. watcha_get_mv_review.ipynb
+### [9. watcha_get_mv_review.ipynb](https://github.com/pyunji/MovieProject/blob/master/crawling/watcha_get_mv_review.md)
 	- Used files: 
 		- watcha_mv_code_sort_by_voter_final.csv
 	- Generated files: 
@@ -106,7 +114,7 @@ It had 74,277 movie codes.
 
 When searching with film codes, the movie brought in all reviewers' IDs, nicknames, reviews, ratings, and likes numbers of reviews.
 
-### 10. watcha_review_processing.ipynb
+### [10. watcha_review_processing.ipynb](https://github.com/pyunji/MovieProject/blob/master/crawling/watcha_review_processing.md)
 	- Used files:
 		mv_review\mv_review_before\*
 	- Generated files:
@@ -122,7 +130,7 @@ Stored user id of non-reviewable movies, reviewed movies, and reviewed separatel
 These were all concatenated, deduplicated and stored.
 
 
-### **11. watcha_user_rating_count.ipynb**
+### [**11. watcha_user_rating_count.ipynb**](https://github.com/pyunji/MovieProject/blob/master/crawling/watcha_user_rating_count.md)
 	- Used files:
 		- mv_review\mv_review_after\user_id.csv
 		    - watcha_user\user_id.csv (changed path)
@@ -149,7 +157,7 @@ These were all concatenated, deduplicated and stored.
 
     Eventually, I created a complete crawler that went nonstop for two days, and they were able to collect about 89 million movies and stars that users evaluated.
 
-### **12. watcha_get_user_info.ipynb**
+### [**12. watcha_get_user_info.ipynb**](https://github.com/pyunji/MovieProject/blob/master/crawling/watcha_get_user_info.md)
 	- Used files:
 		- watcha_user/user_id_sort_by_rating_count_final.csv
 	- Generated files:
