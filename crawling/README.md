@@ -1,4 +1,4 @@
-# 🤷‍♂️How do I make WATCHA crawler in python
+# 🤷‍♂️How did I make WATCHA crawler in python
 
 ## ❓ Why didn't I develop the crawler as a module?
 Due to the characteristics of the crawler, we had to borrow computer resources from team members and ***ask them to operate the crawler.***
