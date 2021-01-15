@@ -95,7 +95,7 @@ A string representing a number, such as '~만, ~천' in the column, was converte
 	- Generated files: 
 		- watcha_mv_code_sort_by_voter_final.csv
 
-After sorting the number of votors in descending order, only the movie code was extracted and saved as *watcha_mv_code_sort_by_voter_final.csv*
+After sorting the number of voters in descending order, only the movie code was extracted and saved as *watcha_mv_code_sort_by_voter_final.csv*
 It had 74,277 movie codes.
 
 ### 9. watcha_get_mv_review.ipynb
@@ -108,7 +108,7 @@ When searching with film codes, the movie brought in all reviewers' IDs, nicknam
 
 ### 10. watcha_review_processing.ipynb
 	- Used files:
-		mv_review/mv_review_before/*
+		mv_review\mv_review_before\*
 	- Generated files:
 		- mv_review\mv_review_after\리뷰가 없는 영화들.csv
 		- mv_review\mv_review_after\reviewed_mv.csv
@@ -156,7 +156,7 @@ These were all concatenated, deduplicated and stored.
 		- watcha_user/temp2/user_data{numbering}-{numbering}.csv
 		- watcha_user/temp3/error_user_data{numbering}-{numbering}.csv
 
-Got as accurately as possible the movies and ratings you rate based on *rating_count*.
+Got as accurately as possible the movies and ratings user's rate based on *rating_count*.
 
 The number of users who rated more than six movies was 207,793. 
 
