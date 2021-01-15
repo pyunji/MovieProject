@@ -39,19 +39,6 @@ df
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -138,19 +125,6 @@ df
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -414,19 +388,6 @@ df[5000:10000]
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -519,27 +480,6 @@ for i in tqdm_notebook(range(int((end_num-start_num)/jump))):
 
     HBox(children=(IntProgress(value=0, max=5), HTML(value='')))
 
-
-
-    HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
-
-
-
-    HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
-
-
-
-    HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
-
-
-
-    HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
-
-
-
-    HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
-
-
     user_id :  ld0q0Z9pE56Xn 평가한 영화 개수 :  102
     user_id :  a9L5PZeMPqwg8 평가한 영화 개수 :  102
     user_id :  eVRZv4BZxr6yd 평가한 영화 개수 :  102
@@ -626,24 +566,6 @@ for i in tqdm_notebook(range(int((end_num-start_num)/jump))):
     user_id :  VRZv40Mmbvr6y 평가한 영화 개수 :  102
     
     
-
-
-    HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
-
-
-
-    HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
-
-
-
-    HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
-
-
-
-    HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
-
-
-
     HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
 
 
