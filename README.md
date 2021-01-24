@@ -197,26 +197,27 @@ These were all concatenated, deduplicated and stored.
 	- Generated files:
 		- mv_review\mv_review_after\user_id_sort_by_rating_count.csv
 		    - watcha_user\temp\user_id_sort_by_rating_count1~3.csv (changed path)
-
+---
 #### ❓ Why did I collect rating_count?
-    Add the number of movies evaluated by the user to the *rating_count* column and sort them in descending order.
+Add the number of movies evaluated by the user to the *rating_count* column and sort them in descending order.
 
-    Due to WATCHA's infinite scrolling characteristics, dynamic crawling was carried out using selenium.
+Due to WATCHA's infinite scrolling characteristics, dynamic crawling was carried out using selenium.
 
-    But due to delays between requests of scrolling down and the driver's response time, the next user's information was often crawled over without getting all user-specific data. 
+But due to delays between requests of scrolling down and the driver's response time, the next user's information was often crawled over without getting all user-specific data. 
 
-    To overcome this, I decided to set specific guidelines even if I took extra time. 
+To overcome this, I decided to set specific guidelines even if I took extra time. 
 
-    I was worried about the team members because there was not enough time for the project, but I persuaded them to come up with the best way not to waste time for a better quality recommendation system. 
+I was worried about the team members because there was not enough time for the project, but I persuaded them to come up with the best way not to waste time for a better quality recommendation system. 
 
-    I thought the guideline could be the "number of movies evaluated by users(rating_count)" that showed when search user's profile. 
+I thought the guideline could be the "number of movies evaluated by users(rating_count)" that showed when search user's profile. 
 
-    This reduces time by collecting guidelines through static crawl because dynamic crawl is not required. 
+This reduces time by collecting guidelines through static crawl because dynamic crawl is not required. 
 
-    This allowed us to build an algorithm that would repeat the loop if the guideline and the data being collected differed by more than a certain number of times, and then move on to the next step if the loop was repeated more than a certain number of times. 
+This allowed us to build an algorithm that would repeat the loop if the guideline and the data being collected differed by more than a certain number of times, and then move on to the next step if the loop was repeated more than a certain number of times. 
 
-    Eventually, I created a complete crawler that went nonstop for two days, and they were able to collect about 89 million movies and stars that users evaluated.
+Eventually, I created a complete crawler that went nonstop for two days, and they were able to collect about 89 million movies and stars that users evaluated.
 
+---
 ### [**12. watcha_get_user_info.ipynb**](https://github.com/pyunji/MovieProject/blob/master/crawling/watcha_get_user_info.md)
 	- Used files:
 		- watcha_user/user_id_sort_by_rating_count_final.csv
